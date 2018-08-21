@@ -1,0 +1,12 @@
+C:\Users\blake\Source\GitHub\zoned-decimal\ZonedDecimal\ZonedDecimal\bin\Debug\ZonedDecimal.dll
+C:\Users\blake\Source\GitHub\zoned-decimal\ZonedDecimal\ZonedDecimal\bin\Debug\ZonedDecimal.pdb
+C:\Users\blake\Source\GitHub\zoned-decimal\ZonedDecimal\ZonedDecimal\obj\Debug\ZonedDecimal.csprojAssemblyReference.cache
+C:\Users\blake\Source\GitHub\zoned-decimal\ZonedDecimal\ZonedDecimal\obj\Debug\ZonedDecimal.csproj.CoreCompileInputs.cache
+C:\Users\blake\Source\GitHub\zoned-decimal\ZonedDecimal\ZonedDecimal\obj\Debug\ZonedDecimal.dll
+C:\Users\blake\Source\GitHub\zoned-decimal\ZonedDecimal\ZonedDecimal\obj\Debug\ZonedDecimal.pdb
+C:\Users\blake\Source\GitHub\zoned-decimal\src\ZonedDecimal\bin\Debug\ZonedDecimal.dll
+C:\Users\blake\Source\GitHub\zoned-decimal\src\ZonedDecimal\bin\Debug\ZonedDecimal.pdb
+C:\Users\blake\Source\GitHub\zoned-decimal\src\ZonedDecimal\obj\Debug\ZonedDecimal.csprojAssemblyReference.cache
+C:\Users\blake\Source\GitHub\zoned-decimal\src\ZonedDecimal\obj\Debug\ZonedDecimal.csproj.CoreCompileInputs.cache
+C:\Users\blake\Source\GitHub\zoned-decimal\src\ZonedDecimal\obj\Debug\ZonedDecimal.dll
+C:\Users\blake\Source\GitHub\zoned-decimal\src\ZonedDecimal\obj\Debug\ZonedDecimal.pdb
