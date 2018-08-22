@@ -37,8 +37,8 @@ namespace ZonedDecimal
         public static string GetZonedDecimal(decimal value, int digitsLeft, int digitsRight, RoundingOperation roundingOperation)
         {
             // bounds checking
-            if (digitsLeft < 1) throw new ArgumentException("Value must be greater than zero.", "digitsLeft");
-            if (digitsRight < 0) throw new ArgumentException("Value must be greater than or equal to zero.", "digitsRight");
+            if (digitsLeft < 1) throw new ArgumentException("Value must be greater than zero.", nameof(digitsLeft));
+            if (digitsRight < 0) throw new ArgumentException("Value must be greater than or equal to zero.", nameof(digitsRight));
 
             // zoned-decimal has its own way of signaling negative
             bool isNegative = false;
@@ -69,7 +69,7 @@ namespace ZonedDecimal
             
             // more bounds checking (e.g. digitsLeft = 3; digitsRight = 2; if number with implied decimal place > 10^5-1=99999 then it will not fit)
             if (workingValue > Math.Pow(10, length) - 1)
-                throw new ArgumentException("Value exceeds specified total number of fixed digits.", "value");
+                throw new ArgumentException("Value exceeds specified total number of fixed digits.", nameof(value));
 
             // each character will be a digit of the number
             char[] output = new char[length];
@@ -122,7 +122,7 @@ namespace ZonedDecimal
             {   
                 // get the EBCDIC code for the character at position i
                 if (!m_IBM037Codes.TryGetValue(zonedDecimalString[i], out byte digit))
-                    throw new ArgumentException("Invalid numeric character found in zoned-decimal string", "zonedDecimalString");
+                    throw new ArgumentException("Invalid numeric character found in zoned-decimal string", nameof(zonedDecimalString));
 
                 // the right-most character will carry the sign
                 if (i == lastIndex)
